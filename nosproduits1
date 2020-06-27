@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Ma box Ecolo</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <img
+    id="logo"
+    src="https://cdn.glitch.com/fa5ba077-28da-45de-a59c-4358d33beafe%2Fb8827c14-00dc-495f-adec-21f0228477ae.image.png?v=1593183729145"
+    alt="logo"
+  />
+    <!-- Top navigation -->
+  <div class="topnav">
+    <!-- Centered link -->
+    <div class="topnav-centered">
+      <a href="/index.html" class="active">Accueil</a>
+    </div>
+    <!-- Left-aligned links (default) -->
+    <a href="/nosproduits1.html">Nos produits</a>
+    <a href="/blog.html">Blog</a>
+
+    <!-- Right-aligned links -->
+    <div class="topnav-right">
+      <a href="/notreequipe.html">Notre équipe</a>
+      <a href="/contact.html">Contact</a>
+    </div>
+  </div>
+
+  <body>
+    <h2>
+      QUE CONTIENNENT NOS BOXS ?
+    </h2>
+
+    <p>
+      Nos box écologiques sont faites avec amour en France par notre équipe
+      soucieuse des enjeux environnementaux actuels. Le contenu de nos boxs
+      varie change chaque mois afin de vous proposer des produits nouveaux,
+      originaux, et utiles. Vous y trouverez des produits pour le soin du corp, des
+      cosmétiques, de beauté certifiés biologiques et bons pour votre santé.
+    </p>
+
+    <h3>
+      La box découverte
+    </h3>
+
+    <div class="acote">
+      <div id="carree">
+        <img
+          id="boxune"
+          src="https://cdn.shopify.com/s/files/1/0117/9300/6649/products/zerodechets_2000x.JPG?v=1570029994"
+          alt="image de produit cosmétique"
+        />   
+        <block id="carre">
+        Abonnement "La box découverte" <br>
+          16€/mois sans engagement
+        </block>
+      </div>
+
+      
+      <p>
+        Cette box est spécialement conçue pour les non-initiés avec des produits
+        écologiques. Vous recevrez de nombreux accessoires qui vous permettront
+        de rendre vos gestes du quotidien plus respectueux de l'environnement
+        (brosse à dent en bambou, coton tige réutilisable, dentifrice solide...
+        ...)
+
+      </p>
+    </div>
+
+    
+    <h3 id="right">
+      La box surprise
+    </h3>
+    <div class="acote">
+      <p>
+        Cette box est spécialement conçue pour les non-initiés avec des produits
+        écologiques. Vous recevrez de nombreux accessoires qui vous permettront
+        de rendre vos gestes du quotidien plus respectueux de l'environnement
+        (brosse à dent en bambou, coton tige réutilisable, dentifrice solide...
+        ...)
+      </p>
+   <div id="column">
+    
+    
+      <img
+        id="boxdeux"
+        src="https://cdn1.ueva.fr/1061-large_default/box-surprise-balneo-baignoire-plaisir.jpg"
+        alt="image d'une box mystère"
+      />
+      <block id="carr">
+        Abonnement "La box découverte" <br>
+          16€/mois sans engagement
+      </block>
+     </div>
+
+
+    </div>
+  </body>
+</html>
+
